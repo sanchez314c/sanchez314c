@@ -1,0 +1,93 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Jason Paul Michaels",
+    "email": "jason@jasonpaulmichaels.co",
+    "description": "Independent open source developer building AI infrastructure, developer tooling, and multi-agent systems. 118+ projects shipped in 11 months, 72 public GitHub repositories, 1M+ lines of code. Focus areas: multi-provider AI gateways, model evaluation frameworks, agent orchestration, desktop applications. All MIT-licensed open source.",
+    "webpageUrl": {
+      "url": "https://jasonpaulmichaels.co"
+    }
+  },
+  "projects": [
+    {
+      "guid": "betterclaw",
+      "name": "BetterClaw",
+      "description": "Self-hosted multi-provider AI gateway routing across 25+ LLM providers through a unified API. 9-stage context pruning, perception pipeline, 9 chat platform integrations. Production systemd service. 73K lines of TypeScript.",
+      "webpageUrl": {
+        "url": "https://github.com/sanchez314c/betterclaw"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/sanchez314c/betterclaw"
+      },
+      "licenses": ["MIT"],
+      "tags": ["ai", "llm", "gateway", "multi-provider", "open-source", "typescript"]
+    },
+    {
+      "guid": "model-fitness",
+      "name": "Model-Fitness",
+      "description": "Independent AI model benchmarking framework evaluating 339+ models across 14 providers through 12 standardized test phases. Research-grade evaluation infrastructure for AI capability assessment.",
+      "webpageUrl": {
+        "url": "https://github.com/sanchez314c"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/sanchez314c"
+      },
+      "licenses": ["MIT"],
+      "tags": ["ai", "benchmarking", "evaluation", "llm", "open-source", "python"]
+    },
+    {
+      "guid": "claude-buddy",
+      "name": "Claude-Buddy",
+      "description": "25-plugin suite for Claude Code adding session mesh, semantic memory, conductor mode, and tonal continuity. Developer infrastructure for AI-assisted coding workflows.",
+      "webpageUrl": {
+        "url": "https://github.com/sanchez314c"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/sanchez314c"
+      },
+      "licenses": ["MIT"],
+      "tags": ["ai", "developer-tools", "plugins", "claude", "open-source", "typescript"]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/sanchez314c",
+        "description": "Sponsor via GitHub Sponsors"
+      },
+      {
+        "guid": "paypal",
+        "type": "payment-provider",
+        "address": "jason@jasonpaulmichaels.co",
+        "description": "PayPal donation"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "monthly-support",
+        "status": "active",
+        "name": "Monthly open source development support",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["github-sponsors", "paypal"]
+      },
+      {
+        "guid": "annual-grant",
+        "status": "active",
+        "name": "Annual development grant",
+        "description": "Covers full-time open source development, compute, and infrastructure for 12 months",
+        "amount": 48000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": ["github-sponsors", "paypal"]
+      }
+    ],
+    "history": []
+  }
+}
